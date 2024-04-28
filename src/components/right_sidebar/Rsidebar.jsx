@@ -5,6 +5,7 @@ import { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../context/AuthContext";
+import { Add, Edit, Remove } from "@mui/icons-material";
 
 const Rsidebar = ({ user }) => {
   const [friends, setFriends] = useState([]);
@@ -39,7 +40,7 @@ const Rsidebar = ({ user }) => {
           );
           dispatch({ type: "UNFOLLOW", payload: user._id });
         } catch (error) {
-          console.error(error, "Unfollow");
+          console.log(error, "Unfollow");
         }
       } else {
         try {
@@ -50,9 +51,8 @@ const Rsidebar = ({ user }) => {
             }
           );
           dispatch({ type: "FOLLOW", payload: user._id });
-          setFriends(friends.filter((friend) => friend._id !== user._id));
         } catch (error) {
-          console.error(error, "follow");
+          console.log(error, "follow");
         }
       }
       setFollowed(!followed);
@@ -66,7 +66,7 @@ const Rsidebar = ({ user }) => {
       <>
         <div className="birthdayContainer">
           <img
-            src="https://r2.easyimg.io/c05qzmzi4/gift.png"
+            src="https://imgtr.ee/images/2024/04/27/49bc1176fe858054971f9e1254e58a33.png"
             alt="birthday"
             className="birthdayImg"
           />
@@ -93,11 +93,13 @@ const Rsidebar = ({ user }) => {
       <>
         {user.username !== currentUser.username && (
           <button className="RsidebarFollowButton" onClick={handleClick}>
-            {followed ? "Add Friend" : "Remove Friend"}
-            {/* {followed? <Add/> : <Remove/>} */}
+            {followed ? "Remove Friend" : "Add Friend"}
+            {followed ? <Remove /> : <Add />}
           </button>
         )}
-        <h4 className="RsidebarTitle">User Information</h4>
+        <h4 className="RsidebarTitle">
+          User Information <Edit className="RsidebarTitleEdit" />
+        </h4>
         <div className="RsidebarInfo">
           <div className="RsidebarInfoItem">
             <span className="RsidebarInfoKey">City:</span>
@@ -122,7 +124,7 @@ const Rsidebar = ({ user }) => {
             </span>
           </div>
         </div>
-        <h4 className="RsidebarTitle">User Friends</h4>
+        <h4 className="RsidebarTitle">User Friends ({friends.length})</h4>
         <div className="RsidebarFollowings">
           {friends.map((friend, index) => (
             <Link
@@ -136,7 +138,7 @@ const Rsidebar = ({ user }) => {
                   src={
                     friend.profilePicture
                       ? friend.profilePicture
-                      : "https://r2.easyimg.io/pn1putmmp/avatar.png"
+                      : "https://imgtr.ee/images/2024/04/27/1fe72092a6cc90a87aa84f71f5767de0.png"
                   }
                   alt="following"
                 />

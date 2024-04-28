@@ -1,6 +1,7 @@
 import "./online.css";
 
 const Online = ({ user }) => {
+  console.log(user, "user");
   return (
     <li className="rightsidebarFriend">
       <div className="rightsidebarProfileImgContainer">

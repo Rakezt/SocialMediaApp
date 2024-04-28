@@ -1,4 +1,4 @@
-import { MoreVert } from "@mui/icons-material";
+import { MoreVert, ThumbUp } from "@mui/icons-material";
 import "./posts.css";
 import { useContext, useEffect, useState } from "react";
 import axios from "axios";
@@ -75,7 +75,7 @@ const Posts = ({ post }) => {
                 src={
                   user.profilePicture
                     ? user.profilePicture
-                    : "https://r2.easyimg.io/pn1putmmp/avatar.png"
+                    : "https://imgtr.ee/images/2024/04/27/1fe72092a6cc90a87aa84f71f5767de0.png"
                 }
                 alt="profile"
               />
@@ -120,12 +120,7 @@ const Posts = ({ post }) => {
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">
-            <img
-              className="likeIcon"
-              src={`https://r2.easyimg.io/uirf2btbn/like.png`}
-              onClick={likeHandler}
-              alt="like"
-            />
+            <ThumbUp className="likeIcon" onClick={likeHandler} />
             <span className="postLikeCounter">{like} people like it</span>
           </div>
           <div className="postBottomRight">

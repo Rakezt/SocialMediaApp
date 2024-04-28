@@ -8,6 +8,9 @@ const Register = () => {
   const email = useRef();
   const password = useRef();
   const passwordagain = useRef();
+  const date = useRef();
+  const city = useRef();
+  const hometown = useRef();
   const navigate = useNavigate();
 
   const handleClick = async (e) => {
@@ -19,6 +22,9 @@ const Register = () => {
         username: username.current.value,
         email: email.current.value,
         password: password.current.value,
+        date: date.current.value,
+        city: city.current.value,
+        hometown: hometown.current.value,
       };
       try {
         await axios.post(
@@ -72,6 +78,28 @@ const Register = () => {
               minLength="6"
               required
             />
+            <input
+              placeholder="Date of Birth"
+              type="date"
+              className="loginInput"
+              ref={date}
+              required
+            />
+            <input
+              placeholder="City"
+              type="text"
+              className="loginInput"
+              ref={city}
+              required
+            />
+            <input
+              placeholder="HomeTown"
+              type="text"
+              className="loginInput"
+              ref={hometown}
+              required
+            />
+
             <button className="loginButton">Sign Up</button>
 
             <Link to="/login" style={{ textDecoration: "none" }}>

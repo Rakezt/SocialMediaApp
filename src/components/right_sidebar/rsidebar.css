@@ -26,6 +26,12 @@
 .rightsidebarTitle {
   margin-bottom: 20px;
 }
+.RsidebarTitleEdit {
+  cursor: pointer;
+}
+.RsidebarTitleEdit:hover {
+  color: #a61651;
+}
 .rightsidebarFriendsList {
   margin: 0;
   padding: 0;

@@ -59,6 +59,7 @@
   height: 24px;
   margin-right: 5px;
   cursor: pointer;
+  color: greenyellow;
 }
 .postLikeCounter {
   font-size: 15px;

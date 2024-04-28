@@ -33,7 +33,7 @@ const Profile = () => {
                 className="profileCoverImg"
                 src={
                   user.coverPicture ||
-                  "https://r2.easyimg.io/39pyvewdo/cover.jpg"
+                  "https://imgtr.ee/images/2024/04/27/cdc5a764ffae0e40e1e8515614e00f7d.jpeg"
                 }
                 alt="cover"
               />
@@ -41,7 +41,7 @@ const Profile = () => {
                 className="profileUserImg"
                 src={
                   user.profilePicture ||
-                  "https://r2.easyimg.io/pn1putmmp/avatar.png"
+                  "https://imgtr.ee/images/2024/04/27/1fe72092a6cc90a87aa84f71f5767de0.png"
                 }
                 alt="ProfilePicture"
               />

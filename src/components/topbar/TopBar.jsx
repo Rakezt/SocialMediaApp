@@ -75,7 +75,7 @@ const TopBar = () => {
           <img
             src={
               user.profilePicture ||
-              "https://r2.easyimg.io/pn1putmmp/avatar.png"
+              "https://imgtr.ee/images/2024/04/27/1fe72092a6cc90a87aa84f71f5767de0.png"
             }
             alt="person"
             className="topbarImage"

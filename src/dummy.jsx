@@ -1,53 +1,62 @@
 export const Users = [
   {
     id: 1,
-    profilePicture: "https://r2.easyimg.io/0x24yvc97/1.jpeg",
+    profilePicture:
+      "https://imgtr.ee/images/2024/04/27/4507d18423609f39729e70d32d613d55.jpeg",
     username: "Fiaona Fussi",
   },
   {
     id: 2,
-    profilePicture: "https://r2.easyimg.io/jkmu87rlz/2.jpeg",
+    profilePicture:
+      "https://imgtr.ee/images/2024/04/27/fde4ca6f53739c98f87443e045195712.jpeg",
     username: "Janell Shrum",
   },
   {
     id: 3,
     profilePicture:
-      "https://r2.easyimg.io/acxfc8w4y/john-wicks-noble-hobby-revealed-keanu-reeves-says-it-was-cut-from-original-film.jpg",
+      "https://imgtr.ee/images/2024/04/27/0055b4d631da728a4873b847a4c91260.jpeg",
     username: "John Wick",
   },
   {
     id: 4,
-    profilePicture: "https://r2.easyimg.io/03ftr8khg/4.jpeg",
+    profilePicture:
+      "https://imgtr.ee/images/2024/04/27/fa1a1deccfc4fe0547f7bbe8dce15b2a.jpeg",
     username: "Dora Hawks",
   },
   {
     id: 5,
-    profilePicture: "https://r2.easyimg.io/phrj8gm0x/5.jpeg",
+    profilePicture:
+      "https://imgtr.ee/images/2024/04/27/7b032349671776a60ddefa4da83caa5a.jpeg",
     username: "Clara Madison",
   },
   {
     id: 6,
-    profilePicture: "https://r2.easyimg.io/lbfdnufx2/6.jpeg",
+    profilePicture:
+      "https://imgtr.ee/images/2024/04/27/fc39230cee1794648950c4f48174854e.jpeg",
     username: "Shirley Beauchamp",
   },
   {
     id: 7,
-    profilePicture: "https://r2.easyimg.io/jem9naf88/7.jpeg",
+    profilePicture:
+      "https://imgtr.ee/images/2024/04/27/e81e9374864dde627911dd9065b30e91.jpeg",
     username: "Travis Bennett",
   },
   {
     id: 8,
-    profilePicture: "https://r2.easyimg.io/gop8phplb/8.jpeg",
+    profilePicture:
+      "https://imgtr.ee/images/2024/04/27/6551c3f3bf0967deef42e8d7132eecea.jpeg",
     username: "Kristen Thomas",
   },
   {
     id: 9,
-    profilePicture: "https://r2.easyimg.io/lhp7o6v9k/9.jpeg",
+    profilePicture:
+      "https://imgtr.ee/images/2024/04/27/03a57991d3df18483c2743110abf501c.jpeg",
     username: "Gary Duty",
   },
   {
     id: 10,
-    profilePicture: "https://r2.easyimg.io/91zsxei3v/10.jpeg",
+    profilePicture:
+      "https://imgtr.ee/images/2024/04/27/301bb4cda377d4c03d3f620e0722a825.jpeg",
     username: "Safak Kocaoglu",
   },
 ];
@@ -56,7 +65,8 @@ export const Post = [
   {
     id: 1,
     desc: "Love For All, Hatred For None.",
-    photo: "https://r2.easyimg.io/qcryi7s8i/1.jpeg",
+    photo:
+      "https://imgtr.ee/images/2024/04/27/acc6c4ef5d39aec8dd2a8dd958f2d6f4.jpeg",
     date: "5 mins ago",
     userId: 1,
     like: 32,
@@ -65,7 +75,8 @@ export const Post = [
   {
     id: 2,
     desc: "Keep a habit of chasing time not wasting it",
-    photo: "https://r2.easyimg.io/u9fy0cay4/2.jpeg",
+    photo:
+      "https://imgtr.ee/images/2024/04/27/1640797c3d4fcb7bf69f188693529af1.jpeg",
     date: "15 mins ago",
     userId: 2,
     like: 2,
@@ -74,7 +85,8 @@ export const Post = [
   {
     id: 3,
     desc: "Every moment is a fresh beginning.",
-    photo: "https://r2.easyimg.io/0w0i2646z/3.jpeg",
+    photo:
+      "https://imgtr.ee/images/2024/04/27/752aa3ada5ed4a7a5daf0734692c3a8a.jpeg",
     date: "1 hour ago",
     userId: 3,
     like: 61,
@@ -82,7 +94,8 @@ export const Post = [
   },
   {
     id: 4,
-    photo: "https://r2.easyimg.io/bdgle6jhu/4.jpeg",
+    photo:
+      "https://imgtr.ee/images/2024/04/27/c19407b4a7f6e9373e6ed6109de1b23c.jpeg",
     date: "4 hours ago",
     userId: 4,
     like: 7,
@@ -90,7 +103,7 @@ export const Post = [
   },
   {
     id: 5,
-    photo: "https://r2.easyimg.io/lzy3rq1rz/5.jpeg",
+    photo: "",
     date: "5 hours ago",
     userId: 5,
     like: 23,
@@ -98,7 +111,7 @@ export const Post = [
   },
   {
     id: 6,
-    photo: "https://r2.easyimg.io/5ywqpdx9a/6.jpeg",
+    photo: "",
     date: "1 day ago",
     userId: 6,
     like: 44,
@@ -107,7 +120,7 @@ export const Post = [
   {
     id: 7,
     desc: "Never regret anything that made you smile.",
-    photo: "https://r2.easyimg.io/xcdkfmnio/7.jpeg",
+    photo: "",
     date: "2 days ago",
     userId: 7,
     like: 52,
